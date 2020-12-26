@@ -211,7 +211,7 @@ const Main = (props) => {
                 <Typography variant="caption" display="block" gutterBottom >
                   Address
                   <br />
-                  {'0x0B6A33CfbbA02159E0D87086094609C867F04E42'}
+                  {'0x58Fd79D34Edc6362f92c6799eE46945113A6EA91'}
                 </Typography>
 
               </Paper>
@@ -229,7 +229,7 @@ const Main = (props) => {
                 <Typography variant="caption" display="block" gutterBottom >
                   Address
                   <br />
-                  {'0x0B6A33CfbbA02159E0D87086094609C867F04E42'}
+                  {'0x3e4897523ed7532e5ed064F1a7Cf15b6216fB14E'}
                 </Typography>
 
               </Paper>
@@ -247,7 +247,7 @@ const Main = (props) => {
                 <Typography variant="caption" display="block" gutterBottom >
                   Address
                   <br />
-                  {'0x4eC9763c0322147d8119cD8517A6f0E42EEaf540'}
+                  {'0x35fA8692EB10F87D17Cd27fB5488598D33B023E5'}
                 </Typography>
 
               </Paper>
