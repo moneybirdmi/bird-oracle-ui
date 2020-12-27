@@ -48,7 +48,9 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(4),
   },
   sidebar: {
-    height: "100vh",
+    height: "150vh",
+    background: "radial-gradient(circle, rgba(246,222,219,1) 16%, rgba(255,255,255,1) 74%);"
+    
   },
   marginTop: {
     marginTop: theme.spacing(8),
