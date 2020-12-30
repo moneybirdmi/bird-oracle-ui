@@ -60,13 +60,14 @@ const useStyles = makeStyles((theme) => ({
 const theme = createMuiTheme({
   typography: {
     fontFamily: [
+      "Roboto",
       "Helvetica",
-      '"Helvetica Neue"',
+      "Helvetica Neue",
       "Arial",
       "sans-serif",
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
     ].join(","),
   },
 });
@@ -121,6 +122,7 @@ function App() {
   const [web3js, setWeb3js] = useState();
   const [web3Obj, setWeb3Obj] = useState();
   const [account, setAccount] = useState("");
+  const [testNetwork, setNetwork] = useState();
 
   /* Open wallet selection modal. */
   const loadWeb3Modal = useCallback(async () => {
@@ -164,6 +166,8 @@ function App() {
     web3.eth.defaultAccount =  accounts[0];
     setAccount(accounts[0]);
     setWeb3Obj(web3);
+    setNetwork(networkId)
+
   };
 
   return (
@@ -247,7 +251,7 @@ function App() {
             </Container>
 
             {
-              account ? (
+              account && testNetwork == 42 ? (
                 <Main account={account} web3Obj={web3Obj}></Main>
               ) : (
                 <Typography
@@ -257,7 +261,7 @@ function App() {
                   align="center"
                 >
                   <CircularProgress />
-                  Please connect to metamask on KOVAN network
+                  Please connect to metamask and KOVAN network
                 </Typography>
               ) // or whatever loading state you want, could be null
             }
