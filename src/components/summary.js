@@ -16,6 +16,7 @@ import Assets from "./shared/assets";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Box from "@material-ui/core/Box";
 import { Button, Header } from "./../components";
+import { BigNumber } from "bignumber.js";
 
 import Web3 from "web3";
 import { addresses, abis } from "../contracts";
@@ -162,7 +163,11 @@ const Summary = (props) => {
           contract.events.UpdatedRequest((err, res) => {
             if (err === null) {
               console.log("received", res);
-              setBirdRating(Number(res.returnValues.value));
+              let rating = BigNumber(res.returnValues.value);
+              let oneEther = new BigNumber(1);
+              rating = rating.dividedBy(oneEther.shiftedBy(18)).toNumber();
+              console.log(rating);
+              setBirdRating(rating);
             } else {
               console.error(err);
             }
