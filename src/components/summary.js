@@ -132,7 +132,7 @@ const Summary = (props) => {
     return (
       <Button
         onClick={() => {
-         
+        
           //const web3 = new Web3("wss://kovan.infura.io/ws/v3/2377373e9cc84228a6cea33645b511ea");
           const web3 = web3Obj;
           if (!web3)
