@@ -30,9 +30,6 @@ import Container from "@material-ui/core/Container";
 import Alert from '@material-ui/lab/Alert';
 import Link from "@material-ui/core/Link";
 
-
-
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -212,11 +209,11 @@ function App() {
           <Grid item xs={12} sm={10}>
           <Alert severity="warning">Beta testing on Kovan: Contract 
           <Link
-                    target="_blank"
-                    href="https://kovan.etherscan.io/address/0x06bbA98D211C5edb2599a2625002E08c1CC11D47"
-                  >
-                     (0x06bbA98D211C5edb2599a2625002E08c1CC11D47)
-                  </Link>{" "}
+            target="_blank"
+            href={"https://kovan.etherscan.io/address/" + addresses.kovan}
+          >
+              ({addresses.kovan})
+          </Link>{" "}
           </Alert>
 
             <Container className={classes.root, classes.marginTop}>

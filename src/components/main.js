@@ -194,9 +194,9 @@ const Main = (props) => {
                   <br />
                   <Link
                     target="_blank"
-                    href="https://kovan.etherscan.io/address/0x58Fd79D34Edc6362f92c6799eE46945113A6EA91"
+                    href="https://kovan.etherscan.io/address/0x3e4897523ed7532e5ed064F1a7Cf15b6216fB14E"
                   >
-                    0x58Fd79D34Edc6362f92c6799eE46945113A6EA91
+                    0x3e4897523ed7532e5ed064F1a7Cf15b6216fB14E
                   </Link>{" "}
 
                 </Typography>
@@ -215,9 +215,9 @@ const Main = (props) => {
 
                   <Link
                     target="_blank"
-                    href="https://kovan.etherscan.io/address/0x3e4897523ed7532e5ed064F1a7Cf15b6216fB14E"
+                    href="https://kovan.etherscan.io/address/0x35fA8692EB10F87D17Cd27fB5488598D33B023E5"
                   >
-                    0x3e4897523ed7532e5ed064F1a7Cf15b6216fB14E
+                    0x35fA8692EB10F87D17Cd27fB5488598D33B023E5
                   </Link>{" "}
 
                 </Typography>
@@ -236,9 +236,9 @@ const Main = (props) => {
 
                   <Link
                     target="_blank"
-                    href="https://kovan.etherscan.io/address/0x35fA8692EB10F87D17Cd27fB5488598D33B023E5"
+                    href="https://kovan.etherscan.io/address/0x58Fd79D34Edc6362f92c6799eE46945113A6EA91"
                   >
-                    0x35fA8692EB10F87D17Cd27fB5488598D33B023E5
+                    0x58Fd79D34Edc6362f92c6799eE46945113A6EA91
                   </Link>{" "}
                 </Typography>
               </Paper>
