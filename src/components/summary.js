@@ -171,7 +171,7 @@ const Summary = (props) => {
             });
           }
           else {
-            contract.methods.getRating(user_account).call({
+            contract.methods.getRatingByAddressString(user_account).call({
               from: user_account,
               gas: 600000
             }, (err, res) => {
