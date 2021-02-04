@@ -319,7 +319,7 @@ const Summary = (props) => {
                   Assets
                 </Typography>
                 <Typography component='h6'>
-                  * test asset data, to be updated in mainnet
+                  * test assets data, to be updated in mainnet
                 </Typography>
 
                 <Assets></Assets>
