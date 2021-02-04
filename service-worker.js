@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bird-oracle-ui/precache-manifest.12f9bc4a5abd0de80cf44c0cca2e21cc.js"
+  "/bird-oracle-ui/precache-manifest.06da614b51637c6b9d9684f5e471e711.js"
 );
 
 self.addEventListener('message', (event) => {

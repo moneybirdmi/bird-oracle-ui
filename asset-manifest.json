@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bird-oracle-ui/static/css/main.1350eab6.chunk.css",
-    "main.js": "/bird-oracle-ui/static/js/main.18c618b7.chunk.js",
-    "main.js.map": "/bird-oracle-ui/static/js/main.18c618b7.chunk.js.map",
+    "main.js": "/bird-oracle-ui/static/js/main.43af17a4.chunk.js",
+    "main.js.map": "/bird-oracle-ui/static/js/main.43af17a4.chunk.js.map",
     "runtime-main.js": "/bird-oracle-ui/static/js/runtime-main.58827d90.js",
     "runtime-main.js.map": "/bird-oracle-ui/static/js/runtime-main.58827d90.js.map",
     "static/js/2.b27236a1.chunk.js": "/bird-oracle-ui/static/js/2.b27236a1.chunk.js",
     "static/js/2.b27236a1.chunk.js.map": "/bird-oracle-ui/static/js/2.b27236a1.chunk.js.map",
     "index.html": "/bird-oracle-ui/index.html",
-    "precache-manifest.12f9bc4a5abd0de80cf44c0cca2e21cc.js": "/bird-oracle-ui/precache-manifest.12f9bc4a5abd0de80cf44c0cca2e21cc.js",
+    "precache-manifest.06da614b51637c6b9d9684f5e471e711.js": "/bird-oracle-ui/precache-manifest.06da614b51637c6b9d9684f5e471e711.js",
     "service-worker.js": "/bird-oracle-ui/service-worker.js",
     "static/css/main.1350eab6.chunk.css.map": "/bird-oracle-ui/static/css/main.1350eab6.chunk.css.map",
     "static/js/2.b27236a1.chunk.js.LICENSE.txt": "/bird-oracle-ui/static/js/2.b27236a1.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.58827d90.js",
     "static/js/2.b27236a1.chunk.js",
     "static/css/main.1350eab6.chunk.css",
-    "static/js/main.18c618b7.chunk.js"
+    "static/js/main.43af17a4.chunk.js"
   ]
 }

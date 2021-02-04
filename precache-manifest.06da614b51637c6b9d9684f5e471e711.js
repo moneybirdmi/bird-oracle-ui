@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e605c92501b76dcc4ad3c1435c9bb212",
+    "revision": "0fc77244a82c4db106e3a519c4f81588",
     "url": "/bird-oracle-ui/index.html"
   },
   {
-    "revision": "55bf59b1fe480064c77e",
+    "revision": "a1d1afefaeaf56502de0",
     "url": "/bird-oracle-ui/static/css/main.1350eab6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bird-oracle-ui/static/js/2.b27236a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "55bf59b1fe480064c77e",
-    "url": "/bird-oracle-ui/static/js/main.18c618b7.chunk.js"
+    "revision": "a1d1afefaeaf56502de0",
+    "url": "/bird-oracle-ui/static/js/main.43af17a4.chunk.js"
   },
   {
     "revision": "439bb781b674484b3b8d",
